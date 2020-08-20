@@ -86,9 +86,9 @@ public class TC9 {
 		  //driver.findElement(By.xpath("//input[@contains(text(),'Email or phone')]")).sendKeys("XYZ");
 		  //WebDriverWait wait = new WebDriverWait(driver, 20);
 		
-		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("rupeshramteke@gmail.com");
+		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("abcd@gmail.com");
 		driver.findElement(By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
-		driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("Sanyo@1983");
+		driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("xyz");
 		driver.findElement(By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
 		
 		driver.switchTo().window(parentHandle);

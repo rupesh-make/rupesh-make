@@ -71,10 +71,10 @@ public class TC8 {
 		  
 		  
 		  WebElement username = driver.findElement(By.xpath("//*[@id='identifierId']"));
-		  username.sendKeys("rupeshramteke@gmail.com");
+		  username.sendKeys("abcd@gmail.com");
 		  
 		  waitForElementToBeClickable(driver,By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
-		  driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("Sanyo@1983");
+		  driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("xyz");
 		  waitForElementToBeClickable(driver,By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
 		  		  
 		  driver.switchTo().window(parentHandle);

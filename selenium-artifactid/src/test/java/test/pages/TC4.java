@@ -73,9 +73,9 @@ public class TC4 {
 		 	    
 		// code for gmail login        
 		
-		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("rupeshramteke@gmail.com");
+		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("abcd@gmail.com");
 		driver.findElement(By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
-		driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("Sanyo@1983");
+		driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("xyz");
 		driver.findElement(By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
 		
 		driver.switchTo().window(parentHandle);
