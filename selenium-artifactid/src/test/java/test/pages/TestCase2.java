@@ -72,10 +72,10 @@ public class TestCase2 {
 	  
 	  
 	  WebElement username = driver.findElement(By.xpath("//input[contains(@name, 'identifier')]"));
-	  username.sendKeys("rupeshramteke@gmail.com");
+	  username.sendKeys("abcd@gmail.com");
 	  
 	  waitForElementToBeClickable(driver,By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
-	  driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("Sanyo@1983");
+	  driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("xyz3");
 	  waitForElementToBeClickable(driver,By.xpath("//button[.//span[contains(text(),'Next')]]")).click();
 	  
 	  
